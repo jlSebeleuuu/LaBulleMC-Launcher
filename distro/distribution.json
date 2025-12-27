@@ -30,9 +30,38 @@
               "artifact": {
                 "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/1.20.1-forge-47.4.10.json"
               }
+            },
+
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2@jar",
+              "name": "Forge BootstrapLauncher",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10@jar",
+              "name": "Forge SecureJarHandler",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9@jar",
+              "name": "Forge ModLauncher",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
             }
           ]
         },
+
         {
           "id": "generated.mod:citadel:2.6.2-1.20.1@jar",
           "name": "Citadel",
