@@ -18,7 +18,7 @@
           "name": "Forge Loader",
           "type": "Forge",
           "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-installer.jar"
+            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-installer.jar"
           },
           "subModules": [
             {
@@ -32,9 +32,9 @@
           ]
         },
         {
-          "id": "citadel-2.6.2-1.20.1",
+          "id": "generated.mod:citadel:2.6.2-1.20.1@jar",
           "name": "Citadel",
-          "type": "ForgeMod",
+          "type": "Library",
           "artifact": {
             "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.6.2-1.20.1.jar"
           }
