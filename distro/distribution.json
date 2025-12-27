@@ -14,19 +14,19 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.20.1-47.4.13",
+          "id": "net.minecraftforge:forge:1.20.1-47.4.10",
           "name": "Forge Loader",
           "type": "Forge",
           "artifact": {
-            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-installer.jar"
+            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
           },
           "subModules": [
             {
-              "id": "forge-1.20.1-47.4.13",
+              "id": "forge-1.20.1-47.4.10",
               "name": "Forge version manifest",
               "type": "VersionManifest",
               "artifact": {
-                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/forge-47.4.13.json"
+                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/forge-47.4.10.json"
               }
             }
           ]
