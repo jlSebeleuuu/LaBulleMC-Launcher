@@ -1,6 +1,6 @@
 {
   "version": "1.0.1",
-  "rss": "https://github.com/jlSebeleuuu/LaBulleMC-Launcher/releases.atom",
+  "rss": null,
   "servers": [
     {
       "id": "labulle",
