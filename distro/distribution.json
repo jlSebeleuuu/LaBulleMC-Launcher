@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "rss": "https://github.com/jlSebeleuuu/LaBulleMC-Launcher/releases.atom",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageText": "LaBulle MC",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "labulle",
+      "name": "LaBulle MC",
+      "description": "Serveur officiel LaBulle MC",
+      "icon": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/build/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "classpath": true,
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "fabric-loader-0.18.4-1.20.1",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/fabric-loader-0.18.4-1.20.1.json"
+              }
+            },
+
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "ASM",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "ASM Commons",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "ASM Tree",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "ASM Util",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Sponge Mixin",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Intermediary",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+
+        {
+          "id": "net.fabricmc.fabric-api:fabric-api:0.92.6+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/libraries/fabric-api-0.92.6+1.20.1.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
