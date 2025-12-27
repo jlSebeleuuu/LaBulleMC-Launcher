@@ -3966,3 +3966,50 @@ input:checked + .toggleSwitchSlider:before {
 .rotating {
     animation: rotating 10s linear infinite;
 }
+
+#landingContainer > #lower > #left #content {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+#server_status_wrapper {
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    white-space: nowrap;
+}
+
+#server_status_wrapper .bot_label {
+    font-size: 11px;
+}
+
+#player_count {
+    font-size: 11px;
+    font-weight: 900;
+}
+
+#player_count.offline {
+    color: #ff3b3b;
+    font-size: 12px;
+    font-weight: 900;
+    text-shadow: 0 0 6px rgba(255, 59, 59, 0.8);
+}
+
+/* Séparateur | */
+.status_separator {
+    font-size: 10px;
+    opacity: 0.7;
+    margin: 0 6px;
+}
+
+/* Aligne JOUER totalement à droite */
+#landingContainer > #lower > #right {
+    justify-content: flex-end;
+}
+
+#launch_content {
+    margin-right: 50px;
+}

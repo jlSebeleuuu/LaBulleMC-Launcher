@@ -1,6 +1,43 @@
-/node_modules/
-/.vs/
-/.vscode/
-/target/
-/logs/
-/dist/
+# Node / Electron
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+out/
+release/
+build/*.blockmap
+build/*.yml
+build/latest*.yml
+
+# Electron Builder caches
+*.snap
+*.dmg
+*.exe
+*.msi
+*.AppImage
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Helios / App caches (runtime)
+*.log
+cache/
+Code Cache/
+GPUCache/
+DawnCache/
+DawnGraphiteCache/
+DawnWebGPUCache/
+Local Storage/
+Session Storage/
+Network/
+blob_storage/
+
+# Minecraft runtime data (si jamais tu l'as dans le repo)
+instances/
+common/

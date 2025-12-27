@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "rss": "https://github.com/jlSebeleuuu/LaBulleMC-Launcher/releases.atom",
+  "servers": [
+    {
+      "id": "labulle",
+      "name": "LaBulle MC",
+      "description": "Serveur officiel LaBulle MC",
+      "icon": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/build/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "loader": {
+        "type": "fabric",
+        "version": "0.15.11"
+      },
+      "modules": []
+    }
+  ]
+}
