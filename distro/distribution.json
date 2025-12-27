@@ -1,0 +1,62 @@
+{
+  "version": "1.0.1",
+  "rss": "https://github.com/jlSebeleuuu/LaBulleMC-Launcher/releases.atom",
+  "servers": [
+    {
+      "id": "labulle",
+      "name": "LaBulle MC",
+      "description": "Serveur officiel LaBulle MC",
+      "icon": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/build/icon.png",
+      "version": "1.0.1",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:47.1.106",
+          "name": "NeoForge",
+          "type": "Forge",
+          "artifact": {
+            "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/47.1.106/neoforge-47.1.106-installer.jar"
+          },
+          "subModules": [
+            {
+              "id": "neoforge-1.20.1-47.1.106",
+              "name": "NeoForge Version Manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/neoforge-1.20.1-47.1.106.json"
+              }
+            }
+          ]
+        },
+
+        {
+          "id": "citadel",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.4.9-1.20.1.jar"
+          }
+        },
+        {
+          "id": "alexsmobs",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/alexsmobs-1.22.8.jar"
+          }
+        },
+        {
+          "id": "jei",
+          "name": "JEI",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/jei-1.20.1-forge-15.3.0.4.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
