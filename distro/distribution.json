@@ -14,19 +14,19 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.neoforged:neoforge:47.1.106",
-          "name": "NeoForge",
+          "id": "net.minecraftforge:forge:47.4.13",
+          "name": "Forge Loader",
           "type": "Forge",
           "artifact": {
-            "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/47.1.106/neoforge-47.1.106-installer.jar"
+            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-installer.jar"
           },
           "subModules": [
             {
-              "id": "neoforge-1.20.1-47.1.106",
-              "name": "NeoForge Version Manifest",
+              "id": "forge-1.20.1-47.4.13.json",
+              "name": "Forge version manifest",
               "type": "VersionManifest",
               "artifact": {
-                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/neoforge-1.20.1-47.1.106.json"
+                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/forge-47.4.13.json"
               }
             }
           ]
@@ -37,7 +37,7 @@
           "name": "Citadel",
           "type": "ForgeMod",
           "artifact": {
-            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.4.9-1.20.1.jar"
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.x-1.20.1.jar"
           }
         },
         {
@@ -45,17 +45,18 @@
           "name": "Alex's Mobs",
           "type": "ForgeMod",
           "artifact": {
-            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/alexsmobs-1.22.8.jar"
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/alexsmobs-1.x.jar"
           }
         },
         {
           "id": "jei",
-          "name": "JEI",
+          "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
             "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/jei-1.20.1-forge-15.3.0.4.jar"
           }
         }
+
       ]
     }
   ]
