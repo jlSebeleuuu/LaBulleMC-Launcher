@@ -36,24 +36,9 @@
           "name": "Citadel",
           "type": "ForgeMod",
           "artifact": {
-            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.x-1.20.1.jar"
+            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.6.2-1.20.1.jar"
           }
-        },
-        {
-          "id": "alexsmobs",
-          "name": "Alex's Mobs",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/alexsmobs-1.x.jar"
-          }
-        },
-        {
-          "id": "jei",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/jei-1.20.1-forge-15.3.0.4.jar"
-          }
+        }
         }
       ]
     }
