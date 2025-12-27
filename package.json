@@ -1,6 +1,6 @@
 {
   "name": "labullemc-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "LaBulle MC Launcher",
   "description": "Lanceur moddé pour LaBulle MC",
   "author": "Sebeleuuu",
@@ -49,3 +49,4 @@
     "url": "git+https://github.com/jlSebeleuuu/LaBulleMC-Launcher.git"
   }
 }
+
