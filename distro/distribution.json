@@ -1,6 +1,6 @@
 {
   "version": "1.0.1",
-  "rss": null,
+  "rss": "https://github.com/jlSebeleuuu/LaBulleMC-Launcher/releases.atom",
   "servers": [
     {
       "id": "labulle",
@@ -18,7 +18,7 @@
           "name": "Forge Loader",
           "type": "Forge",
           "artifact": {
-            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-installer.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-installer.jar"
           },
           "subModules": [
             {
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "id": "citadel",
+          "id": "citadel-2.6.2-1.20.1",
           "name": "Citadel",
           "type": "ForgeMod",
           "artifact": {
