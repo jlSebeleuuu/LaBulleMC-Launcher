@@ -58,6 +58,52 @@
               "artifact": {
                 "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
               }
+            },
+
+            {
+              "id": "org.ow2.asm:asm:9.8@jar",
+              "name": "ASM",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8@jar",
+              "name": "ASM Tree",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8@jar",
+              "name": "ASM Commons",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8@jar",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8@jar",
+              "name": "ASM Util",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
             }
           ]
         },
