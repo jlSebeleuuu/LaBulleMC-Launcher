@@ -16,10 +16,10 @@
         {
           "id": "net.minecraftforge:forge:1.20.1-47.4.10",
           "name": "Forge Loader",
-          "type": "Forge",
+          "type": "ForgeHosted",
           "required": true,
           "artifact": {
-            "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
           },
           "subModules": [
             {
@@ -61,12 +61,241 @@
             },
 
             {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10@jar",
+              "name": "FML Loader",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10@jar",
+              "name": "FML Core",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10@jar",
+              "name": "Java FML Language",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10@jar",
+              "name": "Low Code Language",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10@jar",
+              "name": "MC Language",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10@jar",
+              "name": "FML Early Display",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            },
+
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1@jar",
+              "name": "Forge SPI",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5@jar",
+              "name": "EventBus",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4@jar",
+              "name": "Access Transformers",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4@jar",
+              "name": "CoreMods",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0@jar",
+              "name": "Unsafe",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api@jar",
+              "name": "MergeTool API",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1@jar",
+              "name": "ANTLR Runtime",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4@jar",
+              "name": "NightConfig Core",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4@jar",
+              "name": "NightConfig TOML",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5@jar",
+              "name": "Maven Artifact",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3@jar",
+              "name": "TypeTools",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0@jar",
+              "name": "Terminal Console Appender",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1@jar",
+              "name": "JLine Reader",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1@jar",
+              "name": "JLine Terminal",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5@jar",
+              "name": "Mixin",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4@jar",
+              "name": "Nashorn Core",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19@jar",
+              "name": "JarJar FileSystems",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19@jar",
+              "name": "JarJar Selector",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19@jar",
+              "name": "JarJar Metadata",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+
+            {
               "id": "org.ow2.asm:asm:9.8@jar",
               "name": "ASM",
               "type": "Library",
               "required": true,
               "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.8/asm-9.8.jar"
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/9.8/asm-9.8.jar"
               }
             },
             {
@@ -75,7 +304,7 @@
               "type": "Library",
               "required": true,
               "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
               }
             },
             {
@@ -84,7 +313,7 @@
               "type": "Library",
               "required": true,
               "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
               }
             },
             {
@@ -93,7 +322,7 @@
               "type": "Library",
               "required": true,
               "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
               }
             },
             {
@@ -102,7 +331,7 @@
               "type": "Library",
               "required": true,
               "artifact": {
-                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             }
           ]
@@ -111,7 +340,7 @@
         {
           "id": "generated.mod:citadel:2.6.2-1.20.1@jar",
           "name": "Citadel",
-          "type": "Library",
+          "type": "ForgeMod",
           "required": true,
           "artifact": {
             "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/mods/citadel-2.6.2-1.20.1.jar"
