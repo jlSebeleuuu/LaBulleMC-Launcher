@@ -32,7 +32,6 @@
                 "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/1.20.1-forge-47.4.10.json"
               }
             },
-
             {
               "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10@jar",
               "name": "Minecraft Forge (fmlcore)",
@@ -73,7 +72,6 @@
                 "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
               }
             },
-
             {
               "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal@jar",
               "name": "Minecraft Forge (universal jar)",
@@ -84,7 +82,6 @@
                 "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
               }
             },
-
             {
               "id": "cpw.mods:bootstraplauncher:1.1.2@jar",
               "name": "Forge BootstrapLauncher",
@@ -115,7 +112,6 @@
                 "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
               }
             },
-
             {
               "id": "org.ow2.asm:asm:9.8@jar",
               "name": "ASM",
@@ -166,7 +162,6 @@
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
-
             {
               "id": "com.electronwill.night-config:core:3.6.4@jar",
               "name": "NightConfig Core",
@@ -214,12 +209,11 @@
               "classpath": true,
               "required": true,
               "artifact": {
-                "url mand": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                "url": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
               }
             }
           ]
         },
-
         {
           "id": "generated.mod:citadel:2.6.2-1.20.1@jar",
           "name": "Citadel",
