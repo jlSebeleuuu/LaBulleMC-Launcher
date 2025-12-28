@@ -14,153 +14,127 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "forge-1.20.1-47.4.10",
-          "name": "Forge version manifest",
-          "type": "VersionManifest",
+          "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+          "name": "Forge Loader",
+          "type": "Forge",
           "required": true,
           "artifact": {
-            "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/1.20.1-forge-47.4.10.json"
-          }
-        },
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+          },
+          "subModules": [
+            {
+              "id": "forge-1.20.1-47.4.10",
+              "name": "Forge version manifest",
+              "type": "VersionManifest",
+              "required": true,
+              "artifact": {
+                "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/1.20.1-forge-47.4.10.json"
+              }
+            },
 
-        {
-          "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal@jar",
-          "name": "Forge Universal",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
-          }
-        },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal@jar",
+              "name": "Forge Universal",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+              }
+            },
 
-        {
-          "id": "cpw.mods:bootstraplauncher:1.1.2@jar",
-          "name": "Forge BootstrapLauncher",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-          }
-        },
-        {
-          "id": "cpw.mods:securejarhandler:2.1.10@jar",
-          "name": "Forge SecureJarHandler",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-          }
-        },
-        {
-          "id": "cpw.mods:modlauncher:10.0.9@jar",
-          "name": "Forge ModLauncher",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-          }
-        },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2@jar",
+              "name": "Forge BootstrapLauncher",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10@jar",
+              "name": "Forge SecureJarHandler",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9@jar",
+              "name": "Forge ModLauncher",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
 
-        {
-          "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10@jar",
-          "name": "Forge FMLOader",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
-          }
-        },
-        {
-          "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10@jar",
-          "name": "Forge FML Early Display",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
-          }
-        },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10@jar",
+              "name": "Forge FMLOader",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10@jar",
+              "name": "Forge FML Early Display",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            },
 
-        {
-          "id": "net.minecraftforge:accesstransformers:8.0.4@jar",
-          "name": "Access Transformers",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-          }
-        },
-        {
-          "id": "net.minecraftforge:eventbus:6.0.5@jar",
-          "name": "Forge EventBus",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
-          }
-        },
-        {
-          "id": "net.minecraftforge:forgespi:7.0.1@jar",
-          "name": "Forge SPI",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-          }
-        },
-        {
-          "id": "net.minecraftforge:coremods:5.2.4@jar",
-          "name": "Forge CoreMods",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
-          }
-        },
-
-        {
-          "id": "org.ow2.asm:asm:9.8@jar",
-          "name": "ASM",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/9.8/asm-9.8.jar"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-tree:9.8@jar",
-          "name": "ASM Tree",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-commons:9.8@jar",
-          "name": "ASM Commons",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-analysis:9.8@jar",
-          "name": "ASM Analysis",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
-          }
-        },
-        {
-          "id": "org.ow2.asm:asm-util:9.8@jar",
-          "name": "ASM Util",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
-          }
+            {
+              "id": "org.ow2.asm:asm:9.8@jar",
+              "name": "ASM",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8@jar",
+              "name": "ASM Tree",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8@jar",
+              "name": "ASM Commons",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8@jar",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8@jar",
+              "name": "ASM Util",
+              "type": "Library",
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            }
+          ]
         },
 
         {
