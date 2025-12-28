@@ -34,7 +34,7 @@
             },
 
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10@jar",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
@@ -44,7 +44,7 @@
               }
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10@jar",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
@@ -54,7 +54,7 @@
               }
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10@jar",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
@@ -64,7 +64,7 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10@jar",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "classpath": true,
@@ -75,7 +75,7 @@
             },
 
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal@jar",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
@@ -86,7 +86,7 @@
             },
 
             {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "id": "cpw.mods:bootstraplauncher:1.1.2@jar",
               "name": "Forge BootstrapLauncher",
               "type": "Library",
               "classpath": true,
@@ -96,7 +96,7 @@
               }
             },
             {
-              "id": "cpw.mods:securejarhandler:2.1.10",
+              "id": "cpw.mods:securejarhandler:2.1.10@jar",
               "name": "Forge SecureJarHandler",
               "type": "Library",
               "classpath": true,
@@ -106,7 +106,7 @@
               }
             },
             {
-              "id": "cpw.mods:modlauncher:10.0.9",
+              "id": "cpw.mods:modlauncher:10.0.9@jar",
               "name": "Forge ModLauncher",
               "type": "Library",
               "classpath": true,
@@ -117,7 +117,7 @@
             },
 
             {
-              "id": "org.ow2.asm:asm:9.8",
+              "id": "org.ow2.asm:asm:9.8@jar",
               "name": "ASM",
               "type": "Library",
               "classpath": true,
@@ -127,7 +127,7 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.8",
+              "id": "org.ow2.asm:asm-tree:9.8@jar",
               "name": "ASM Tree",
               "type": "Library",
               "classpath": true,
@@ -137,7 +137,7 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.8",
+              "id": "org.ow2.asm:asm-commons:9.8@jar",
               "name": "ASM Commons",
               "type": "Library",
               "classpath": true,
@@ -147,7 +147,7 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.8",
+              "id": "org.ow2.asm:asm-analysis:9.8@jar",
               "name": "ASM Analysis",
               "type": "Library",
               "classpath": true,
@@ -157,13 +157,64 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.8",
+              "id": "org.ow2.asm:asm-util:9.8@jar",
               "name": "ASM Util",
               "type": "Library",
               "classpath": true,
               "required": true,
               "artifact": {
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+
+            {
+              "id": "com.electronwill.night-config:core:3.6.4@jar",
+              "name": "NightConfig Core",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4@jar",
+              "name": "NightConfig TOML",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0@jar",
+              "name": "TerminalConsoleAppender",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1@jar",
+              "name": "JLine Reader",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1@jar",
+              "name": "JLine Terminal",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url mand": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
               }
             }
           ]
