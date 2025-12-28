@@ -32,6 +32,7 @@
                 "url": "https://raw.githubusercontent.com/jlSebeleuuu/LaBulleMC-Launcher/main/distro/versions/1.20.1-forge-47.4.10.json"
               }
             },
+
             {
               "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10@jar",
               "name": "Minecraft Forge (fmlcore)",
@@ -72,6 +73,7 @@
                 "url": "https://maven.minecraftforge.net/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
               }
             },
+
             {
               "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal@jar",
               "name": "Minecraft Forge (universal jar)",
@@ -82,6 +84,7 @@
                 "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
               }
             },
+
             {
               "id": "cpw.mods:bootstraplauncher:1.1.2@jar",
               "name": "Forge BootstrapLauncher",
@@ -112,6 +115,7 @@
                 "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
               }
             },
+
             {
               "id": "org.ow2.asm:asm:9.8@jar",
               "name": "ASM",
@@ -162,6 +166,58 @@
                 "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
+
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4@jar",
+              "name": "Forge AccessTransformers",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5@jar",
+              "name": "Forge EventBus",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1@jar",
+              "name": "Forge SPI",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4@jar",
+              "name": "Forge CoreMods",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19@jar",
+              "name": "Forge JarJarFileSystems",
+              "type": "Library",
+              "classpath": true,
+              "required": true,
+              "artifact": {
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+
             {
               "id": "com.electronwill.night-config:core:3.6.4@jar",
               "name": "NightConfig Core",
@@ -182,6 +238,7 @@
                 "url": "https://repo1.maven.org/maven2/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
+
             {
               "id": "net.minecrell:terminalconsoleappender:1.2.0@jar",
               "name": "TerminalConsoleAppender",
@@ -214,6 +271,7 @@
             }
           ]
         },
+
         {
           "id": "generated.mod:citadel:2.6.2-1.20.1@jar",
           "name": "Citadel",
